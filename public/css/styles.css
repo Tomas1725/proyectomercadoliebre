@@ -34,20 +34,30 @@ div.top-header{
 }
 
 .form{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+   
     text-align: center;
+    font-family: sans-serif;
     background-color: #ebebeb;
+    margin-top: 100px;
+    margin-bottom: 100px;
     
 }
 .form, .formulario{
-    margin-top: 5px;
-    padding: 8px;
+    
+    margin-top: 15px;
+    padding: 10px;
     margin-bottom: 5px;
     border-radius: 5px;
     border: none;
  
+}
+.form, .date{
+    margin-top: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: none;
+
 }
 .form, h3{
     margin:15px;
@@ -60,11 +70,37 @@ div .botones{
     margin: 10px;
     padding: 10px;
     width: 75px;
-    border-radius: 8px;
+    border-radius: 10px;
     border: solid 1px royalblue;
     background-color: royalblue;
     color: white;
     
+}
+section, .logiin{
+
+    text-align: center;
+    background-color: #ebebeb;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 150px;
+
+}
+.userypass, .user{
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+ 
+div .ingreso{
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: royalblue;
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
 }
 
 header{
