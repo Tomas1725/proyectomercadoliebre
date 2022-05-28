@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 .alineacion{
     text-align: center;
@@ -17,7 +18,7 @@ p{
 }
 
 .icons:hover{
-    color: #acacac;
+    color: #d4d800;
 }
 .copy{
     text-align: center;
@@ -45,14 +46,18 @@ div.top-header{
    
     width: 100%;
     font-family: sans-serif;
-   
-   
+
     
 }
 .forma{
     text-align: center;
+    margin: 455px auto;
     margin-bottom: 50px;
     margin-top: 50px;
+    background-color: white;
+    width: 350px;
+    height: auto;
+    
 }
 .form, .formulario{
     
@@ -60,8 +65,11 @@ div.top-header{
     padding: 10px;
     margin-bottom: 5px;
     border-radius: 5px;
-    border: none;
+    border: solid 1px royalblue;
  
+}
+.form, .formulario:hover{
+    border: solid 1.6px rgb(36, 69, 170);
 }
 .form, .date{
     margin-top: 5px;
@@ -88,11 +96,18 @@ div .botones{
     color: white;
     
 }
+div .botones:hover{
+    border: solid 1px rgb(39, 72, 172);
+    background-color: rgb(42, 75, 177);
+
+}
 .logiiin{
     text-align: center;
     background-color: #ebebeb;
     width: 100%;
     margin-bottom: 75px;
+    position: relative;
+    left: 165px;
 }
 .mylogin{
     text-align: center;
@@ -207,10 +222,9 @@ div.burger-menu i{
     border-radius: 5px;
     color: #FFF;
     font-size: 20px;
-    height: 22px;
+    width: 35px;
     margin: 10px 0px 20px 0px;
-    padding: 10px;
-    width: 30px;
+    height: 30px;
 }
 
 
@@ -262,6 +276,7 @@ main section article{
 main section article img{
     width: 100%;
     border-bottom: solid 1px rgb(134, 235, 134);
+    
 }
 
 main section article i,
@@ -287,6 +302,7 @@ main section article .description{
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
+    width: 100%;
 }
 .buscador{
     border: none;
@@ -313,7 +329,8 @@ main section article:hover{
 .last-visit{
     width: 100%;
     margin: 25px 35px;
-    
+    display: flex;
+    flex-wrap: wrap;
     
 }
 .offers{
@@ -343,11 +360,17 @@ main section article:hover{
     .login, ul, li{
         padding: 10px;
     } 
-    
-    .products{
-        
+    .products {
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
     }
+    .products article {
+        width: 40%;
+    }
+ 
     .alineacion{
         display: flex;
     }
