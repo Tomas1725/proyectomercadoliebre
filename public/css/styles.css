@@ -266,7 +266,7 @@ main{
 }
 
 main section article{
-    background-color: #fff;
+    background-color: #FFF;
     padding: 15px;
     margin: 10px;
     border: solid 1px #ebebeb; 
@@ -279,12 +279,35 @@ main section article img{
     
 }
 
-main section article i,
-.discount{
+
+.main section article .main-article, .truck {
+    
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
     color: #39b54a;
-    border: solid 1px green;
-    border-radius: 60px;
+    border-radius: 50%;
+    position:relative;
+    left: 210px;
+    right: 20px;
+    top: -18px;
+
+    
 }
+.main section article .main-article, .truck:hover{
+    transform: rotatez(-90deg);
+    transition: transform, 0.9s;
+}
+
+
+.main section article .main-article, .discount{
+    color: #39b54a;
+}
+
+
 main section article .description{
     display: none;
 }
@@ -331,11 +354,12 @@ main section article:hover{
     margin: 25px 35px;
     display: flex;
     flex-wrap: wrap;
-    
+    background-color: #ebebeb;
 }
 .offers{
     width: 100%;
     margin: 25px 35px;
+    background-color: #ebebeb;
 }
 @media (min-width: 361px){
 
